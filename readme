@@ -1,0 +1,13 @@
+This is a readme file for BPDF models at TOA
+/BPDF : an excel file for surface BPDF models and observed POLDER data for each IGBP class
+/IGBP_Data_for_16_Classes: The Geometry, NDVI, surface polarized reflectance for each BPDF or measured ata surface to compare and input into 6SV
+/IGBP_Surface_reflectance: Surface reflectance dataset for IGBP01, 10, 12, 13, 16
+sixs_2v_rayleigh_depolarization.pro: main IDL program for running sixs and read data from previous directories
+pol_reflectance_transfer.pro: a subroutine used in previous IDL main program
+sixsV2.1: 6SV 
+
+
+
+#NOTE#
+You could use the main IDL program to get IGBP01 data, and change corresponding code parts to change IGBP,AOD and other parameters.
+You need to run this code in Unix with gfortran compiler
